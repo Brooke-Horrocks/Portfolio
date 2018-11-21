@@ -1,0 +1,208 @@
+*{ 
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    align-self: center;
+    text-align: center;
+    color: #eeeace;
+}
+
+h1{
+    color: #567B96;
+    font-size: 3em;
+    text-shadow:
+		-1px -1px 0 #1D1D1F,
+		1px -1px 0 #1D1D1F,
+		-1px 1px 0 #1D1D1F,
+		1px 1px 0 #1D1D1F;
+}
+
+h2{
+    text-align: justify;
+    padding: 0 25px;
+}
+
+h3{
+    font-size: 2em;
+    text-shadow:
+		-1px -1px 0 #1D1D1F,
+		1px -1px 0 #1D1D1F,
+		-1px 1px 0 #1D1D1F,
+		1px 1px 0 #1D1D1F;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    width: 100%;
+}
+    
+.hr-line {
+    width: 100%;
+    padding: 2px;
+    border-top: 2px solid #1D1D1F;
+    border-bottom: double #eeeace;
+}
+
+.hr-icon {
+    color: #1D1D1F;
+}
+
+.logo{
+    width: 100px;
+}
+
+.hidden-navbar{
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F4468;
+    transition: all .3s ease;
+}
+
+.visible-navbar{
+    position: absolute;
+    margin-top: 60px;
+    height: 220px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F4468;
+    z-index: 1000;
+    transition: all .5s ease;
+}
+
+.link{
+    text-decoration: none;
+    color: #eeeace;
+    font-size: 1em;
+    padding: .8em;
+}
+
+.link:hover{
+    color: #1D1D1F;
+    border-bottom: double #1D1D1F;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/city.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: 50%;
+    overflow: auto;
+    padding: 6em 2.2em;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 6em 2.2em;
+    background-color: #9CA7AB;
+}
+
+.project-section{
+    justify-content: space-between;
+    margin: 3em 3em;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    padding: 6em 2.2em;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    background-color: #9CA7AB;
+    padding: 5em 1em;
+}
+
+.resume-buttons-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.resume-img-container{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.resume-img{
+    width: 80%;
+    height: auto;
+}
+
+.button-links{
+    margin: 10px;
+    padding: 10px;
+    width: 135px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .8em;
+    color: #1D1D1F;
+    border: 2px solid #1D1D1F;
+    border-radius: 6px;
+    transition: all .7s ease;
+}
+
+.button-links:hover{
+    cursor: pointer;
+    background-color: #1D1D1F;
+    color: #eeeace;
+    transition: all .7s ease;
+}
+
+#see-projects-button{
+    margin-top: 40px;
+    color: #567B96;
+    border-color: #567B96;
+}
+
+#see-projects-button:hover{
+    margin-top: 40px;
+    color: #eeeace;
+    border-color: #1D1D1F;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+    background-color: #eeeace;
+}
+
+.contact-icon{
+    height: 30px;
+    width: auto;
+}
