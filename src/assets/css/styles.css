@@ -38,6 +38,19 @@ h3{
 		1px 1px 0 #1D1D1F;
 }
 
+h4{
+    font-size: 1.2em;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: .5em 1em;
+    margin: 0;
+    color: #1D1D1F;
+}
+
 .hr-theme-slash-2 {
     display: flex;
     align-items: center;
@@ -130,6 +143,18 @@ h3{
     height: 100vh;
     overflow: auto;
     padding: 6em 2.2em;
+    background-color: #9CA7AB;    
+}
+
+.about-image-container{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.about-image{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .resume-container{
