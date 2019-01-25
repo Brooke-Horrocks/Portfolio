@@ -5,11 +5,11 @@ import { withToggler } from "atom-lib";
 
 import Navbar from './Navbar';
 import ToggleMenu from "./ToggleMenu";
+import logoCopy from "../assets/img/logo_transparent_copy.png";
 
 import AppBar from "@material-ui/core/AppBar";
 import ToolBar from "@material-ui/core/Toolbar";
 
-import logoCopy from "../assets/img/logo_transparent_copy.png";
 
 function HeaderContainer({ toggle, on }) {
     return (
