@@ -2,7 +2,7 @@ import React from "react";
 
 import SpaIcon from "@material-ui/icons/Spa";
 
-import resumePdf from "../assets/img/resume.png";
+import resumePdf from "../assets/img/brooke-resume.png";
 
 function Resume() {
     return (
