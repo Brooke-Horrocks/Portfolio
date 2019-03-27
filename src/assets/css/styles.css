@@ -1,12 +1,12 @@
-*{ 
+* { 
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
     align-self: center;
@@ -14,7 +14,7 @@ h1, h2, h3, h4{
     color: #eeeace;
 }
 
-h1{
+h1 {
     color: #567B96;
     font-size: 3em;
     text-shadow:
@@ -24,12 +24,12 @@ h1{
 		1px 1px 0 #1D1D1F;
 }
 
-h2{
+h2 {
     text-align: justify;
     padding: 0 25px;
 }
 
-h3{
+h3 {
     font-size: 2em;
     text-shadow:
 		-1px -1px 0 #1D1D1F,
@@ -38,11 +38,15 @@ h3{
 		1px 1px 0 #1D1D1F;
 }
 
-h4{
+h4 {
     font-size: 1.2em;
 }
 
-p{
+h5 {
+    margin: .2em 0;
+}
+
+p {
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
     line-height: 1.5em;
@@ -69,11 +73,11 @@ p{
     color: #1D1D1F;
 }
 
-.logo{
+.logo {
     width: 100px;
 }
 
-.hidden-navbar{
+.hidden-navbar {
     visibility: hidden;
     position: absolute;
     height: 0;
@@ -86,7 +90,7 @@ p{
     transition: all .3s ease;
 }
 
-.visible-navbar{
+.visible-navbar {
     position: absolute;
     margin-top: 60px;
     height: 220px;
@@ -100,19 +104,19 @@ p{
     transition: all .5s ease;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: #eeeace;
     font-size: 1em;
     padding: .8em;
 }
 
-.link:hover{
+.link:hover {
     color: #1D1D1F;
     border-bottom: double #1D1D1F;
 }
 
-.home-container{
+.home-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -124,20 +128,44 @@ p{
     padding: 6em 2.2em;
 }
 
-.projects-container{
+.projects-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow: auto;
     padding: 6em 2.2em;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #9CA7AB;
 }
 
-.project-section{
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     justify-content: space-between;
     margin: 3em 3em;
 }
 
-.about-container{
+.project-gif {
+    width: 80%;
+    height: auto;
+    margin-bottom: .5em;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #eeeace;
+    font-size: 1em;
+    padding: .2em;
+    transition: all .2s ease;
+}
+
+.project-link:hover {
+    color: #1D1D1F;
+}
+
+.about-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -146,18 +174,18 @@ p{
     background-color: #9CA7AB;    
 }
 
-.about-image-container{
+.about-image-container {
     text-align: center;
     margin: 10px 0;
 }
 
-.about-image{
+.about-image {
     width: 200px;
     height: auto;
     border-radius: 50%;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,23 +194,23 @@ p{
     padding: 5em 1em;
 }
 
-.resume-buttons-container{
+.resume-buttons-container {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
-.resume-img-container{
+.resume-img-container {
     text-align: center;
     margin: 10px 0;
 }
 
-.resume-img{
+.resume-img {
     width: 80%;
     height: auto;
 }
 
-.button-links{
+.button-links {
     margin: 10px;
     padding: 10px;
     width: 135px;
@@ -197,26 +225,26 @@ p{
     transition: all .7s ease;
 }
 
-.button-links:hover{
+.button-links:hover {
     cursor: pointer;
     background-color: #1D1D1F;
     color: #eeeace;
     transition: all .7s ease;
 }
 
-#see-projects-button{
+#see-projects-button {
     margin-top: 40px;
     color: #567B96;
     border-color: #567B96;
 }
 
-#see-projects-button:hover{
+#see-projects-button:hover {
     margin-top: 40px;
     color: #eeeace;
     border-color: #1D1D1F;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -227,7 +255,7 @@ footer{
     background-color: #eeeace;
 }
 
-.contact-icon{
+.contact-icon {
     height: 30px;
     width: auto;
 }
