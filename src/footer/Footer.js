@@ -8,17 +8,22 @@ import linkedinIcon from '../assets/img/linkedin.png';
 function Footer() {
   return (
     <footer>
-      <Button target="_blank" href="https://www.linkedin.com/in/brookehorrocks/">
+      <Button
+        target="_blank"
+        href="https://www.linkedin.com/in/brookehorrocks/"
+      >
         <img className="contact-icon" src={linkedinIcon} alt="" />
       </Button>
+
       <Button target="_blank" href="https://github.com/Brooke-Horrocks">
         <img className="contact-icon" src={githubIcon} alt="" />
       </Button>
+
       <Button href="mailto:brooke.horrocks7@gmail.com?subject=Regarding Your Portfolio">
         <img className="contact-icon" src={emailIcon} alt="" />
       </Button>
     </footer>
-  )
+  );
 }
 
 export default Footer;
